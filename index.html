@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Music Player UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="music-player">
+        <div class="player-container">
+            <!-- Album Cover -->
+            <div class="album-cover">
+                <img src="./Images/Bajarangi.jpg" alt="Album Cover" id="albumCover" />
+                <div class="vinyl-overlay"></div>
+            </div>
+
+            <!-- Player Controls -->
+            <div class="player-controls">
+                <!-- Song Info -->
+                <h2 class="song-title" id="songTitle">Song Title</h2>
+                <p class="artist-name" id="artistName">Artist Name</p>
+
+                <!-- Time Display -->
+                <div class="time-display">
+                    <span id="currentTime">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+
+                <!-- Audio element -->
+                <audio id="audio" preload="auto">
+                    <source src="./Audio/Jai-Bajarangi.mp3" type="audio/mp3" />
+                    Your browser does not support the audio element.
+                </audio>
+
+                <!-- Progress Bar -->
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress" id="progress"></div>
+                        <div class="progress-handle" id="progressHandle"></div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="controls">
+                    <button class="control-btn shuffle-btn" id="shuffleBtn" title="Shuffle">
+                        <i class="fas fa-random"></i>
+                    </button>
+                    <button class="control-btn prev-btn" id="prevBtn" title="Previous">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                    <button class="control-btn play-btn" id="playPauseBtn" title="Play/Pause">
+                        <i class="fas fa-play" id="playIcon"></i>
+                    </button>
+                    <button class="control-btn next-btn" id="nextBtn" title="Next">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                    <button class="control-btn repeat-btn" id="repeatBtn" title="Repeat">
+                        <i class="fas fa-redo"></i>
+                    </button>
+                    
+                    <div class="volume-control">
+                        <button class="control-btn volume-btn" id="muteBtn" title="Mute">
+                            <i class="fas fa-volume-up" id="volumeIcon"></i>
+                        </button>
+                        <input type="range" id="volume" min="0" max="100" value="50" />
+                    </div>
+                    
+                    <button class="control-btn fav-btn" id="favBtn" title="Add to favorites">
+                        <i class="far fa-heart" id="favIcon"></i>
+                    </button>
+                    
+                    <div class="speed-control">
+                        <select id="speedSelect" title="Playback speed">
+                            <option value="0.5">0.5x</option>
+                            <option value="0.75">0.75x</option>
+                            <option value="1" selected>1x</option>
+                            <option value="1.25">1.25x</option>
+                            <option value="1.5">1.5x</option>
+                            <option value="2">2x</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
