@@ -39,11 +39,34 @@
 | P       | Previous Track     |
 | Arrows  | Volume/Seek Track  |
 
+---
+## 📁 Project Structure
+modern-music-player-ui/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── Audio/
+│   ├── Jai-Bajarangi.mp3
+│   ├── DDLJ.mp3
+│   ├── Tujh Mein Rab Dikhta Hai.mp3
+│   └── ... (your other tracks)
+├── Images/
+│   ├── Bajarangi.jpg
+│   ├── DDLJ.jpg
+│   ├── RBDJ.jpg
+│   └── ... (album cover images)
+
 ## 📁 How to Run
 
 1. Clone or download this repo.
 2. Place your audio files in the `/Audio` folder.
 3. Place cover images in the `/Images` folder.
 4. Open `index.html` in your browser.
+
+---
+## 🧑‍💻 Author
+
+**LOKESH K**
 
 ---
