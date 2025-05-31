@@ -1,6 +1,7 @@
 # 🎵 Modern Music Player UI
 
-- A stylish and interactive music player built with HTML, CSS, and pure JavaScript. 
+- A stylish and interactive music player built with HTML, CSS, and pure JavaScript.
+  
 - Features include custom controls, local playlist, playback speed, volume, shuffle, repeat, keyboard shortcuts, and responsive design.
 
 ## Live Demo: https://lokesh-soft-dev.github.io/modern-music-player-ui/
