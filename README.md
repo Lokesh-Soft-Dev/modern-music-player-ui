@@ -6,6 +6,7 @@
 
 ## Live Demo: https://lokesh-soft-dev.github.io/modern-music-player-ui/
 
+
 ## 🚀 Features
 
 - Custom-designed UI with modern aesthetics
