@@ -4,8 +4,8 @@
   
 - Features include custom controls, local playlist, playback speed, volume, shuffle, repeat, keyboard shortcuts, and responsive design.
 
+---
 ## Live Demo: https://lokesh-soft-dev.github.io/modern-music-player-ui/
-
 ---
 
 ## 🚀 Features
