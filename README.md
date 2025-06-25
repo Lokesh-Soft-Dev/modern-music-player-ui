@@ -49,9 +49,7 @@
 4. Open `index.html` in your browser.
 
 ---
-
 ## 🧑‍💻 Author
 
 **LOKESH K**
-
 ---
